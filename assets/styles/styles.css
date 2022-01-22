@@ -1,9 +1,22 @@
-.page-light {
-   background-color: #ffffff;
+.container {
+   padding: 0;
 }
 
-.content-light {
-   background-color: #feeae9;
+.row {
+   margin: 0;
+   padding: 0;
+}
+
+ul > li {
+   display: inline-block;
+}
+
+img {
+   user-select: none;
+}
+
+.page-light {
+   background-color: #ffffff;
 }
 
 .page-dark {
@@ -32,6 +45,12 @@
    gap: 10px;
 }
 
+.content-light {
+   background-color: #feeae9;
+   border-radius: 20px;
+   padding: 60px !important;
+}
+
 .custom-color {
    color: #ff408c;
 }
@@ -46,26 +65,27 @@
    color: white;
 }
 
+.category {
+   box-shadow: inset 0 0 2rem rgba(255, 0, 0, 0.1);
+}
+
 .rounded-5 {
    border-radius: 20px;
 }
 
-@media screen and (min-width: 1650px) {
+@media screen and (min-width: 1700px) {
    .container {
       max-width: 1500px !important;
    }
 
-   .py-5 {
-      padding: 80px 0 !important;
-   }
-
-   section .container {
-      padding: 60px !important;
+   .my-5 {
+      margin: 80px 0 !important;
    }
 }
 
 @media screen and (max-width: 576px) {
-   .container {
-      border-radius: 0 !important;
+   section {
+      padding-left: 10px !important;
+      padding-right: 10px !important;
    }
 }
