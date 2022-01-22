@@ -3,7 +3,7 @@
 }
 
 .content-light {
-   background-color: #fff2f1;
+   background-color: #feeae9;
 }
 
 .page-dark {
@@ -20,8 +20,52 @@
 
 .custom-button {
    background-color: #ff408c;
+   padding: 15px 35px !important;
+   border: 0;
+   outline: 0;
+   border-radius: 10px;
+   color: white;
+   font-weight: 500;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+}
+
+.custom-color {
+   color: #ff408c;
+}
+
+.custom-button svg {
+   font-size: 20px;
+   color: inherit;
 }
 
 .custom-button:hover {
    opacity: 0.9;
+   color: white;
+}
+
+.rounded-5 {
+   border-radius: 20px;
+}
+
+@media screen and (min-width: 1650px) {
+   .container {
+      max-width: 1500px !important;
+   }
+
+   .py-5 {
+      padding: 80px 0 !important;
+   }
+
+   section .container {
+      padding: 60px !important;
+   }
+}
+
+@media screen and (max-width: 576px) {
+   .container {
+      border-radius: 0 !important;
+   }
 }
