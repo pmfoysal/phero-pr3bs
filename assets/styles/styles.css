@@ -1,0 +1,27 @@
+.page-light {
+   background-color: #ffffff;
+}
+
+.content-light {
+   background-color: #fff2f1;
+}
+
+.page-dark {
+   background-color: #f4f4f4;
+}
+
+.content-dark {
+   background-color: #ff408c;
+}
+
+.custom-border {
+   border: 2px solid #ff408c;
+}
+
+.custom-button {
+   background-color: #ff408c;
+}
+
+.custom-button:hover {
+   opacity: 0.9;
+}
