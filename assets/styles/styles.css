@@ -81,6 +81,10 @@ img {
    .my-5 {
       margin: 80px 0 !important;
    }
+
+   .py-5 {
+      margin: 80px 0 !important;
+   }
 }
 
 @media screen and (max-width: 576px) {
