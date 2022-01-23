@@ -15,6 +15,10 @@ img {
    user-select: none;
 }
 
+::placeholder {
+   text-transform: capitalize !important;
+}
+
 .page-light {
    background-color: #ffffff;
 }
@@ -43,6 +47,10 @@ img {
    align-items: center;
    justify-content: center;
    gap: 10px;
+}
+
+.custom-radius {
+   border-radius: 10px;
 }
 
 .content-light {
@@ -78,12 +86,28 @@ img {
       max-width: 1500px !important;
    }
 
+   .mt-5 {
+      margin-top: 80px !important;
+   }
+
+   .mb-5 {
+      margin-bottom: 80px !important;
+   }
+
    .my-5 {
       margin: 80px 0 !important;
    }
 
    .py-5 {
-      margin: 80px 0 !important;
+      padding: 80px 0 !important;
+   }
+
+   .pt-5 {
+      padding-top: 80px !important;
+   }
+
+   .pb-5 {
+      padding-bottom: 80px !important;
    }
 }
 
